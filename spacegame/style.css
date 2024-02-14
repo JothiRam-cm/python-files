@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-image: url(/image/space-bg.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+canvas {
+    display: block;
+}
