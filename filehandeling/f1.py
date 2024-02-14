@@ -1,0 +1,8 @@
+f=open("myfirstfile.txt","w")
+s=input("enter the data to store ! ")
+f.write(s)
+f.close()
+f=open("myfirstfile.txt","r")
+s=f.read()
+print(s)
+f.close()
