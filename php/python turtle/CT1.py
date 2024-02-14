@@ -1,0 +1,12 @@
+import turtle
+#win=turtle.Turtle()
+win=turtle.Screen()
+win.setup(800,800)
+win.title(" turtle Challenge 1")
+win.exitonclick()
+t=turtle.Turtle()
+t.speed("slow")
+t.pensize(2)
+t.penup()
+t.right(360/4)
+t.forward(120)
