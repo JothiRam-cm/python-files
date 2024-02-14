@@ -1,0 +1,20 @@
+import turtle
+#create windows
+win=turtle.Screen()
+win.setup(800,800)
+win.title("circles and colors")
+#create turtle
+t=turtle.Turtle()
+t.speed("slowest")
+t.pensize(5)
+t.pencolor("black")
+t.fillcolor("blue")
+t.begin_fill()
+t.circle(100)
+t.right(90)
+t.circle(100)
+t.right(90)
+t.circle(100)
+t.right(90)
+t.circle(100)
+t.end_fill()
